@@ -14,7 +14,9 @@
     "sync": "s3-cli --config .s3config sync --delete-removed --acl-public public/ s3://work.damonzucconi.com/$npm_package_name",
     "deploy": "npm run prod && npm run sync"
   },
-  "dependencies": {},
+  "dependencies": {
+    "digest-brunch": "^1.6.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
     "autoprefixer": "^6.5.0",
