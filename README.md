@@ -1,3 +1,3 @@
 ```
-brunch new a-thing --skeleton https://github.com/dzucconi/skeleton
+brunch new -s https://github.com/dzucconi/skeleton ...
 ```
