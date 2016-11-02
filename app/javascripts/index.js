@@ -1,9 +1,13 @@
-import hello from './lib/hello';
+import parameters from 'queryparams';
+
+window.parameters = parameters;
 
 const DOM = {
   app: document.getElementById('app'),
 };
 
 export default () => {
-  DOM.app.innerHTML = hello();
+  const { message } = parameters({ message: 'Hello' });
+
+  DOM.app.innerHTML = message;
 };

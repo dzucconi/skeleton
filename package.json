@@ -31,5 +31,8 @@
     "s3-cli": "^0.13.0",
     "should": "^11.1.0",
     "uglify-js-brunch": "^2.0.0"
+  },
+  "dependencies": {
+    "queryparams": "0.0.6"
   }
 }
