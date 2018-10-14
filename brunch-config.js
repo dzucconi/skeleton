@@ -1,4 +1,9 @@
 module.exports = {
+  watcher: {
+    awaitWriteFinish: true,
+    usePolling: true
+  },
+
   files: {
     javascripts: {
       joinTo: {
